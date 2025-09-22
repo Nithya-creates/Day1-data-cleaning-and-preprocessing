@@ -1,0 +1,7 @@
+### 📂 Data Source and Access
+
+Due to GitHub's file size limits (25MB), the main project file (`Fraud_Detection_ETL.xlsx`) is hosted externally.
+
+The raw dataset was a 6.3 million-row file. The cleaned, feature-engineered version (600MB) can be downloaded here:
+
+[Link to Cleaned Data File : https://drive.google.com/drive/folders/1Qk0sfHygB_KPcgdYUB4zvGLBgxFi1pk7?usp=drive_link]
