@@ -63,8 +63,9 @@ This project confirms that efforts to model and prevent fraud should be heavily 
 | **isFlaggedFraud (Original system)** |	16 (of the 45 missed) | Old system’s threshold flag caught 16 frauds that the new feature missed.|
 
 ##Summary
-Category	Fraud Cases
-Total fraud	8,213
-Detected by new feature	8,168
-Missed by new feature but caught by old flag	16
-Missed by both systems	29
+|**Category** | Fraud Cases|
+| :--- | :--- | :--- |
+|**Total fraud** | 8,213|
+|**Detected by new feature**| 8,168|
+|**Missed by new feature but caught by old flag** | 16|
+|**Missed by both systems** | 29|
