@@ -53,12 +53,15 @@ Initial EDA (Exploratory Data Analysis) of the 6.3 million transactions revealed
 This project confirms that efforts to model and prevent fraud should be heavily focused on transactions involving **TRANSFERS** and **CASH-OUTS**, particularly those exhibiting an **`is_Balance_valid`** flag.
 ---
 ## 4.PivotTable & Slicer Results
-Filter Applied	Fraud Count	What This Means
-No filters (All)	8,213	Baseline: total fraud cases. Shows fraud is extremely rare compared to non-fraud.
-is_Origin_Balance_Invalid = 1	8,168	New feature detected the vast majority of fraud cases → biggest win.
-is_Origin_Balance_Invalid = 0	45	Fraud cases missed by the new feature. These are trickier because balances looked normal.
-is_Origin_Balance_Invalid = 0 AND isFlaggedFraud = 0	29	Fraud cases missed by both systems → hardest to detect.
-isFlaggedFraud (Original system)	16 (of the 45 missed)	Old system’s threshold flag caught 16 frauds that the new feature missed.
+
+| Filter Applied | Fraud Count | What This Means|
+| :--- | :--- | :--- |
+| **No filters (All)**|	8,213 | Baseline: total fraud cases. Shows fraud is extremely rare compared to non-fraud.
+| **is_Origin_Balance_Invalid = 1** | 8,168 | New feature detected the vast majority of fraud cases → biggest win.
+| **is_Origin_Balance_Invalid = 0** | 45 | Fraud cases missed by the new feature. These are trickier because balances looked normal.|
+| **is_Origin_Balance_Invalid = 0 AND isFlaggedFraud = 0** | 29 | Fraud cases missed by both systems → hardest to detect.|
+| **isFlaggedFraud (Original system)** |	16 (of the 45 missed) | Old system’s threshold flag caught 16 frauds that the new feature missed.|
+
 ##Summary
 Category	Fraud Cases
 Total fraud	8,213
