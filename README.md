@@ -1,4 +1,4 @@
-# Day1-data-cleaning-and-preprocessing
+# Day2-data-cleaning-and-preprocessing
 
 
 # 💸 Financial Fraud Detection Analysis and Feature Engineering
@@ -61,7 +61,7 @@ This project confirms that efforts to model and prevent fraud should be heavily 
 | **is_Origin_Balance_Invalid = 0** | 45 | Fraud cases missed by the new feature. These are trickier because balances looked normal.|
 | **is_Origin_Balance_Invalid = 0 AND isFlaggedFraud = 0** | 29 | Fraud cases missed by both systems → hardest to detect.|
 | **isFlaggedFraud (Original system)** |	16 (of the 45 missed) | Old system’s threshold flag caught 16 frauds that the new feature missed.|
-
+---
 ##Summary
 |**Category** | Fraud Cases|
 | :--- | :--- | :--- |
