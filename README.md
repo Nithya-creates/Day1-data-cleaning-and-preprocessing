@@ -64,7 +64,7 @@ This project confirms that efforts to model and prevent fraud should be heavily 
 ---
 ## Summary
 | Category | Fraud Cases|
-| :--- | :--- | :--- |
+| :--- | :--- | 
 |**Total fraud** | 8,213|
 |**Detected by new feature**| 8,168|
 |**Missed by new feature but caught by old flag** | 16|
