@@ -62,8 +62,8 @@ This project confirms that efforts to model and prevent fraud should be heavily 
 | **is_Origin_Balance_Invalid = 0 AND isFlaggedFraud = 0** | 29 | Fraud cases missed by both systems → hardest to detect.|
 | **isFlaggedFraud (Original system)** |	16 (of the 45 missed) | Old system’s threshold flag caught 16 frauds that the new feature missed.|
 ---
-##Summary
-|**Category** | Fraud Cases|
+## Summary
+| Category | Fraud Cases|
 | :--- | :--- | :--- |
 |**Total fraud** | 8,213|
 |**Detected by new feature**| 8,168|
